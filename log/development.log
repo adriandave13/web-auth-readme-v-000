@@ -1280,3 +1280,107 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 00:51:22 -0500
+
+
+Started GET "/search" for ::1 at 2016-11-16 15:31:27 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 358ms (Views: 349.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-16 15:31:32 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b/hK3U/UR7FB9a8OGdkwxOlYSGE8kPhw1tvb6b2hGVd+koEp8eV07bDjRkSvReOBE/YYCPq5TcLrMsDHrDyW/Q==", "zipcode"=>"11238", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 242ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-16 15:32:13 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b/hK3U/UR7FB9a8OGdkwxOlYSGE8kPhw1tvb6b2hGVd+koEp8eV07bDjRkSvReOBE/YYCPq5TcLrMsDHrDyW/Q==", "zipcode"=>"11238", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 115ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-16 15:32:17 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b/hK3U/UR7FB9a8OGdkwxOlYSGE8kPhw1tvb6b2hGVd+koEp8eV07bDjRkSvReOBE/YYCPq5TcLrMsDHrDyW/Q==", "zipcode"=>"11238", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 96ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-16 15:32:38 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b/hK3U/UR7FB9a8OGdkwxOlYSGE8kPhw1tvb6b2hGVd+koEp8eV07bDjRkSvReOBE/YYCPq5TcLrMsDHrDyW/Q==", "zipcode"=>"11238", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 276ms (Views: 160.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-16 15:32:43 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EtREevhI9umTWxAvp79CS9THCMhRTKBoB5350SX42KkDvo+ORnnFtWJN+WURI5EOLmlYoZdlFdo6dOL/NGVXAw==", "zipcode"=>"11238", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 104ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-16 15:37:14 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EtREevhI9umTWxAvp79CS9THCMhRTKBoB5350SX42KkDvo+ORnnFtWJN+WURI5EOLmlYoZdlFdo6dOL/NGVXAw==", "zipcode"=>"11238", "commit"=>"Search!"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-11-16 15:39:40 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-11-16 15:39:45 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-11-16 15:39:46 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-11-16 15:44:17 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-11-16 15:45:16 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=YXWAFCO52FZUEH3WVYNHGTKIKWHNXOPFUJM00W14UZOWRC1C&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=WPX1PPLWA2HZEJWNZMRBOPGQ24UZGA0WLOAQ23VWLHC2DYHS" for ::1 at 2016-11-16 15:45:17 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"WPX1PPLWA2HZEJWNZMRBOPGQ24UZGA0WLOAQ23VWLHC2DYHS"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 146ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-16 15:45:17 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 158ms (Views: 157.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-16 15:45:22 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2n2bf6AbDNZq357hND43jkDko3+9buesbXyw9T9yIqPLF1CLHio/ipvJd6uCouTLukrzFntHUh5QlavbLu+tCQ==", "zipcode"=>"11238", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 263ms (Views: 10.8ms | ActiveRecord: 0.0ms)
